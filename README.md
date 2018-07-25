@@ -36,3 +36,9 @@ Note: Please use firefox or safari browser. Chrome is not supported yet.
 
 * CNTK implementation of FER+ paper - https://github.com/Microsoft/FERPlus
 * FER demo built by https://github.com/codewithsk. (GitHub repo will be public soon)
+
+# Resources
+
+* Apache MXNet (incubating) - http://mxnet.incubator.apache.org/
+* Learn Deep Learning with Gluon - https://gluon.mxnet.io/
+* Productionizing Deep Learning Models with MXNet Model Server - https://github.com/awslabs/mxnet-model-server
