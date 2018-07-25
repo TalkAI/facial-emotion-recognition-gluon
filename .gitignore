@@ -1,0 +1,15 @@
+*.pyc
+__pycache__
+
+# ipython notebook
+*_pb2.py
+*.ipynb_checkpoints*
+
+# Visual Studio Code
+.vscode
+
+# Pycharm
+.idea
+
+# Mac OS X
+.DS_Store
