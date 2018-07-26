@@ -18,9 +18,13 @@ Note: Please use firefox or safari browser. Chrome is not supported yet.
 
 ```
     git clone https://github.com/sandeep-krishnamurthy/facial-emotion-recognition-gluon
+    cd facial-emotion-recognition-gluon
 ```
 
 * Download FER dataset `fer2013.tar.gz` from - https://www.kaggle.com/c/challenges-in-representation-learning-facial-expression-recognition-challenge/data
+
+Note: You cannot download the dataset with wget. You have register on Kaggle and download the dataset due to licence criteria.
+
 * Extract the tar file - `fer2013.tar.gz`
 * Copy `fer2013.csv` dataset to `facial-emotion-recognition-gluon/data` directory. 
 * Generate `FER+` train/test/validation dataset from downloaded `FER` data.
@@ -36,12 +40,16 @@ In this step, we read the raw FER data, correct the labels using FER+ labels, an
 ```
 In this step, we read the FER+ data images we prepared in the previous step, apply the transformation suggested in the [paper by Boursom et. al.](https://arxiv.org/abs/1608.01041) (Crop, Flip, Rotate, Affine Transformation, Scale).
 
-Processed training/test/validation data are saved as numpy binaries (`npy`). We use these processed data in the model training notebook.
+Processed training/test/validation data are saved as numpy binaries (`*.npy`). We use these processed data in the model training notebook.
 
  
-## Model Training and Saving
+## Step 2 - Model Training and Saving
+
+Open the `notebook/Gluon_FERPlus.ipynb` notebook and follow the instructions to train the model using the processed images saved as *.npy files in previous step. 
 
 # Inference
+
+TODO
 
 # Contributors
 
