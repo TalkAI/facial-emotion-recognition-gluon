@@ -10,6 +10,24 @@ This repo consists of following resources:
 You can see final demo at - http://bit.ly/ferdemo
 Note: Please use firefox or safari browser. Chrome is not supported yet.
 
+In this implementation, we use majority voting (MV) technique illustrated in the paper and achieve `81.25%` validation accuracy.(paper achieves 83.85%)
+
+# Prerequisites / Installation
+
+```
+# Install MXNet
+
+    pip install mxnet-mkl # for CPU machines
+    pip install mxnet-cu92 # For GPU machines with CUDA 9.2
+    
+# Other Dependencies
+    pip install Pillow # For image processing
+    pip install graphviz # For MXNet network visualization
+    pip install matplotlib # For plotting training graphs
+```
+
+Please refer [MXNet installation guide](http://mxnet.incubator.apache.org/install/index.html?platform=Linux&language=Python&processor=CPU) for more details.
+
 # Model Training
 
 ## Step 1 - Data preparation
