@@ -78,6 +78,13 @@ In the notebook, we will also export the trained model as MXNet symbol and param
 
 TODO
 
+# Next Steps (TODOs)
+
+Below are few areas of improvements and next steps. All contributions are welcome!
+
+* Hyper-parameter optimization - In this implementation, I have not optimized hyper-parameters (learning rate scheduler for SGD) for best possible result.
+* Implement multi-gpu version of model training. This script provides single GPU implementation only. Time per epoch on single GPU is around 1 minute => approx 50 minutes for full model training (Model converges at around 50th epoch)
+
 # Contributors
 
 * [Sandeep Krishnamurthy](https://github.com/sandeep-krishnamurthy/) 
