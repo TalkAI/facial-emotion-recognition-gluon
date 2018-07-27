@@ -7,7 +7,7 @@ This repo consists of following resources:
 2. Notebook for model training with MXNet GLUON and exporting the trained model.
 3. Large scale productionization of the trained model using MXNet Model Server(MMS) - https://github.com/awslabs/mxnet-model-server
 
-You can see final demo at - http://bit.ly/ferdemo
+You can see final demo at - http://bit.ly/mxnet-fer
 Note: Please use firefox or safari browser. Chrome is not supported yet.
 
 In this implementation, we use majority voting (MV) technique illustrated in the paper and achieve `81.25%` validation accuracy.(paper achieves 83.85%)
