@@ -25,6 +25,12 @@ In this implementation, we use majority voting (MV) technique illustrated in the
     pip install Pillow # For image processing
     pip install graphviz # For MXNet network visualization
     pip install matplotlib # For plotting training graphs
+
+# Install MXNet Model Server(MMS) and required dependencies for FER inference
+
+    pip install mxnet-model-server
+    pip install scikit-image
+    pip install opencv-python
 ```
 
 Please refer [MXNet installation guide](http://mxnet.incubator.apache.org/install/index.html?platform=Linux&language=Python&processor=CPU) for more detailed installation instructions.
