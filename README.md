@@ -99,14 +99,7 @@ Below are few areas of improvements and next steps. All contributions are welcom
 
 # Citation / Credits
 
-* FER+ paper
-@inproceedings{BarsoumICMI2016,
-    title={Training Deep Networks for Facial Expression Recognition with Crowd-Sourced Label Distribution},
-    author={Barsoum, Emad and Zhang, Cha and Canton Ferrer, Cristian and Zhang, Zhengyou},
-    booktitle={ACM International Conference on Multimodal Interaction (ICMI)},
-    year={2016}
-}
-
+* Barsoum, Emad & Zhang, Cha & Canton Ferrer, Cristian & Zhang, Zhengyou (2016). [Training Deep Networks for Facial Expression Recognition with Crowd-Sourced Label Distribution](https://arxiv.org/abs/1608.01041). In ACM International Conference on Multimodal Interaction (ICMI).
 * CNTK implementation of FER+ paper - https://github.com/Microsoft/FERPlus
 * FER demo built by https://github.com/codewithsk. (GitHub repo will be public soon)
 
