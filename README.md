@@ -26,7 +26,7 @@ pip install Pillow # For image processing
 pip install graphviz # For MXNet network visualization
 pip install matplotlib # For plotting training graphs
 
-# Install MXNet Model Server and required dependencies for inference
+# Install MXNet Model Server and required dependencies for inference model serving
 
 pip install mxnet-model-server
 pip install scikit-image

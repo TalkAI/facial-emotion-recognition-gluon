@@ -5,12 +5,6 @@
       "data_shape": [1, 1, 64, 64], 
       "data_name": "data"
     }
-  ], 
-  "outputs": [
-    {
-      "data_shape": [1, 8],
-      "data_name": "hybridsequential0_dense2_fwd"
-    }
-  ], 
+  ],
   "output_type": "application/json"
 }
